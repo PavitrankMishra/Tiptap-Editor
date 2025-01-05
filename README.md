@@ -1,3 +1,5 @@
+### Live Link: https://tiptapnotes.netlify.app/
+
 ### Tiptap Editor
 
 ## Tiptap is a highly customizable and flexible rich text editor built on ProseMirror. It offers extensive features like bold, italic, underline, lists, and image embedding. Tiptap is modular and extensible, allowing developers to easily add or remove functionalities. It integrates smoothly with frameworks like React and Vue and supports real-time collaboration, custom styling, and cross-browser compatibility. Tiptap is responsive and accessible, providing a seamless editing experience on both desktop and mobile devices.
