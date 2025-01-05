@@ -1,0 +1,60 @@
+.tiptapEditor {
+  font-size: 20px;
+  line-height: 1.6;
+  padding: 15px;
+  border-radius: 4px;
+  background: linear-gradient(360deg, #fff5e1, #ffe0b3);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  overflow-y: auto;
+  height: 400px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: black;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.tiptapEditor ul,
+.tiptapEditor ol {
+  padding-left: 20px;
+}
+
+.tiptapEditor::-webkit-scrollbar {
+  width: 8px;
+}
+
+.tiptapEditor::-webkit-scrollbar-thumb {
+  background: #ff7e5f;
+  border-radius: 10px;
+}
+
+.tiptapEditor::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.tiptapEditor::-webkit-scrollbar-thumb:hover {
+  background: #ff6943;
+}
+
+@media (max-width: 1024px) {
+  .tiptapEditor {
+    font-size: 18px;
+    height: 350px;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tiptapEditor {
+    font-size: 16px;
+    height: 300px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tiptapEditor {
+    font-size: 14px;
+    height: 250px;
+    padding: 8px;
+  }
+}

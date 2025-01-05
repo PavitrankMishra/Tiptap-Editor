@@ -1,0 +1,29 @@
+html,
+body {
+  height: 100%; /* Ensure both elements take full height */
+  margin: 0; /* Remove default margins */
+}
+
+body {
+  margin: 0;
+  font-family: "Playfair Display", serif; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: #151517; */
+  background:#f0f0f0;
+  background: #ffe0b3;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.ProseMirror:focus {
+  outline: none;
+}
+
+/* button {
+
+  font-family: inherit; /* Ensure button text also uses the inherited font */
+/* } */ 

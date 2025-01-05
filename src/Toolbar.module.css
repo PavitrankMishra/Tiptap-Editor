@@ -1,0 +1,77 @@
+.toolbar {
+  border-radius: 4px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  background: #ff7e5f;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}
+
+.toolbar button {
+  font-family: "Lora", serif;
+  color: black;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  font-size: 16px;
+  background-color: #ff7e5f;
+}
+
+.toolbar button:hover {
+  transform: translateY(-2px);
+}
+
+.toolbar button:active {
+  transform: translateY(0);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  color: black;
+  text-decoration-color: black;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .toolbar {
+    padding: 8px 16px;
+    gap: 8px;
+  }
+
+  .toolbar button {
+    font-size: 14px;
+    padding: 4px 6px;
+  }
+}
+
+@media (max-width: 768px) {
+  .toolbar {
+    padding: 6px 12px;
+    gap: 6px;
+  }
+
+  .toolbar button {
+    font-size: 12px;
+    padding: 4px 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .toolbar {
+    padding: 6px 10px;
+    gap: 5px;
+  }
+
+  .toolbar button {
+    font-size: 10px;
+    padding: 3px 4px;
+  }
+}
